@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #445a67, #57838d);
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  color: white;
+}
+
+#items {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  height: 30vh;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 10vh;
+}
+
+#pickers {
+  display: flex;
+  width: 10vw;
+  justify-content: space-evenly;
+}
+#picker1:hover,
+#picker2:hover {
+  cursor: pointer;
+}
+h1 {
+  letter-spacing: 0.4em;
+}
